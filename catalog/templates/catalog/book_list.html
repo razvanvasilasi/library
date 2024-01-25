@@ -1,0 +1,5 @@
+<h1>List all books</h1>
+<br>
+{% for book in book_list %}
+    <p>{{book.id}} | {{book.title}} | {{book.author}} | {{book.genre}}</p>
+{% endfor %}
